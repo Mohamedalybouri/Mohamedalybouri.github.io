@@ -1,7 +1,7 @@
 theme: jekyll-theme-minimal
 logo: /image/gitgithub.png
 title: Git project
-description: Bookmark this to keep an eye on my project updates!
+description: This presentation is a summary of the most used git commands.
 lsi: false
 safe: true
 source: [your repo's top level directory]
