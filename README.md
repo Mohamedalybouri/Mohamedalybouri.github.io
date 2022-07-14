@@ -84,3 +84,86 @@ These are the last updates in Git (2022)
 * Control System
 * Version Controlled: Whenever more and more code is added to the folder, the code present in the Git folder gets changed.
 
+We can also use an online hosts such as *`GitHub`* or *`Bitbucket`* to store a copy of the files and their revision history and that can merge the changes
+
+In this picture we can see the relationship between the developer, the coworker and the web service 
+
+![image](/image/Image0.png)
+
+### *The main states:*
+Git has 3 main states that your file can reside in which are:
+* Modified
+* Staged
+* Committed
+
+Git has 4 main code which are represented in this cercal
+
+![image](/image/Image3.png)
+
+The basic steps on Git to push the project into an online host
+
+    $ git init                    (1)
+    $ git add .                   (2)
+    $ git commit                  (3)
+    $ git remote add <name> <url> (4)
+    $ git push -u <name>          (5)(6)
+    $ git pull                    (6)(5)
+
+Let'ss strat with:
+### **Git add**
+    - git add <path>
+    - git add .
+    - git add -A
+
+It selects file(s) and moves it to the straging area
+
+The next step is:
+### **Git push**
+It is used to upload content from a local repository to a remote repository 
+
+### **Git commit**
+![image](/image/Image2.png)
+
+# ***Git branch***
+This is a sloution to work in group in Git
+
+![image](/image/Image9.png)
+### **Commands related to branch**
+These are the commands that are related to ``branch``
+
+    $ git branch 
+    $ git checkout
+    $ git clone
+    $ git merge <branch name>
+
+### **Git checkout**
+This command make us switch the branch
+
+![image](/image/Image22.png)
+
+### **Git clone**
+It is used to target an existing repository and create a copy of the target repository
+
+1. git clone allows to create a copy of a target repository
+
+2. The target repository can be local or remote.
+
+3. Git supports a few network protocols to connect to remote repositories
+
+4. Several different configuration options are available to change the contents of the clone.
+
+### **Git merge**
+1. The Git merge combines multiple sequences of commits into a unified commit history.
+2. There are two main types of Git merges: fast-forward and three-pronged.
+3. Git can automatically merge commits unless there are conflicting changes in the two commit sequences
+
+There is another solution to work in groupe in git which is _`Fork`_
+
+* You can make changes to a project without affecting the original repository
+* Also, you can submit changes to the original repository with pull requests.
+
+**So what is the differenc between Fork and branch well?**
+
+Just imagin that you work in groupe in a small society and you trust the other people because you know them. So, you can use the `branch` as a solution of working in groupes. You can have a close communiaction between each other. Also, you give the development organization to write an access to a repository. And of cousre we don't forget the rapid iteration cycle between developpers. 
+
+Otherwise, if you work in a society but you don't trust anyone. So, you can't use the `Branch` because may be one day some one can delete an important file. So, in this case, you should use `Fork`.So, you can fine-grain control over merging.Also, You expressly want to support independent branches. And of course, You want to discard experiments and changes easily.
