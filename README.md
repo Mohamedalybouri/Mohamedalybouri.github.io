@@ -122,12 +122,12 @@ The next step is:
 It is used to upload content from a local repository to a remote repository 
 
 ### **Git commit**
-![image](/image/Image2.png)
+![image](/image/image2.png)
 
 # ***Git branch***
 This is a sloution to work in group in Git
 
-![image](/image/Image9.png)
+![image](/image/image9.png)
 ### **Commands related to branch**
 These are the commands that are related to ``branch``
 
