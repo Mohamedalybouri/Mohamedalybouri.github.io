@@ -1,37 +1,30 @@
-## Welcome to GitHub Pages
+# ***Git presentation***
+This presentation is a summary of the most used git commands.
 
-You can use the [editor on GitHub](https://github.com/Mohamedalybouri/Mohamedalybouri.github.io/edit/main/README.md) to maintain and preview the content for your website in Markdown files.
+# ***Planning***
+- VCS
+- GIT
+- Git branch
+- Fork
+- Diferrence between fork and branch
+- Advantages and disadvantages of using Git
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+When you take a look at the defenition in google of git you will see that Git is a version Control system (VCS)
+    **What is version Control system?**
+    
+# ***A version Control system: ***
+* A system that tracks changes to a file or set of files over time
+* Sharing on multiple computers
+* Logging where be changed
+* If you screw things up or lose files, you can easily recover 
 
-### Markdown
+# ***Types of VCS***
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+There are 3 types of VCS:
+1. Local Version Control System 
+2. Centralized Version Control System
+3. Distributed Version Control System
 
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/Mohamedalybouri/Mohamedalybouri.github.io/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+## **_Local Version Control System_**
+For example "Skype" 
+![w:980](https://cdn.shortpixel.ai/spai/w_738+q_glossy+ret_img+to_webp/https://serengetitech.com/wp-content/uploads/2020/12/local-version-control.png)
