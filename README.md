@@ -48,9 +48,3 @@ Also this type of VCS has advantages(+) and disadvantages(-):
 
 That's why this methode is changed and another `VCS` is appered which is *`Distributed Version Control System`*
 
-|:***2015***                   :|:***2018***                   :|
-|:-----------------------------:|:-----------------------------:|
-|:Git: 69.3%                   :|:Git: 88.4%                   :|
-|:Subervsion: 36.9%            :|:Subervsion: 16.6%            :|
-|:Team Foundation: 12.2%       :|:Team Foundation: 11.3%       :|
-|:Mercurial: 7.9%              :|:Mercurial: 3.7%              :|
