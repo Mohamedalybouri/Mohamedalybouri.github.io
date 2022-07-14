@@ -52,11 +52,11 @@ That's why this methode is changed and another `VCS` is appered which is *`Distr
 ![image](https://cdn.shortpixel.ai/spai/w_738+q_glossy+ret_img+to_webp/https://serengetitech.com/wp-content/uploads/2020/12/distributed-version-control.png)
 
 For exemple : Git
-![image](gitgithub%20-%20Copie.png)
+![image](/image/gitgithub%20-%20Copie.png)
 
 ## _Version control software_
 Ther are 3 best version control software:
-![image](VCS.png)
+![image](/image/VCS.png)
 As you can see in this table we can see the devolpere of different of verrsion control software
 
 |***2015***                   |***2018***                   |
