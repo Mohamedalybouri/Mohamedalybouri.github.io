@@ -1,5 +1,3 @@
-# ***Git presentation***
-This presentation is a summary of the most used git commands.
 
 # ***Planning***
 - VCS
@@ -27,4 +25,26 @@ There are 3 types of VCS:
 
 ## **_Local Version Control System_**
 For example "Skype" 
-![w:980](https://cdn.shortpixel.ai/spai/w_738+q_glossy+ret_img+to_webp/https://serengetitech.com/wp-content/uploads/2020/12/local-version-control.png)
+![image](https://cdn.shortpixel.ai/spai/w_738+q_glossy+ret_img+to_webp/https://serengetitech.com/wp-content/uploads/2020/12/local-version-control.png)
+
+A local version control systtem has advantages(+) and disadvantages(-):
+   +This approach is very common and simple
+   -The chances of accidentally writing to the wrong file is higher
+That's why this methode is changed and another `VCS` is appered which is *`Centralized Version Control System`*
+
+## **_Centralized Version Control System_**
+![image](https://cdn.shortpixel.ai/spai/w_738+q_glossy+ret_img+to_webp/https://serengetitech.com/wp-content/uploads/2020/12/Centralized-Version-Control-System.png)
+
+The best example of *`Centralized Version Control System`* is [*_SVN_*](https://fr.wikipedia.org/wiki/Apache_Subversion)
+
+Also this type of VCS has advantages(+) and disadvantages(-):
+   +Relatively easy to set up
+   +Enable admins control the workflow
+
+   On the other hand
+   -If the main server goes down developers can’t save versioned changes
+   -Remote commits are slow
+   -If the central database is corrupted the entire history could be lost (security issues)
+
+That's why this methode is changed and another `VCS` is appered which is *`Distributed Version Control System`*
+
