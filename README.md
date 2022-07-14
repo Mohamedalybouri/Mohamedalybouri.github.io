@@ -12,7 +12,7 @@ This presentation is a summary of the most used git commands.
 When you take a look at the defenition in google of git you will see that Git is a version Control system (VCS)
     **What is version Control system?**
     
-# ***A version Control system: ***
+# ***A version Control system:***
 * A system that tracks changes to a file or set of files over time
 * Sharing on multiple computers
 * Logging where be changed
