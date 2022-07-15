@@ -5,7 +5,7 @@ show_downloads: false
 google_analytics:
 markdown: kramdown
 highlighter: rouge
-theme: minimal
+theme: minima
 gems:
   - jekyll-feed
 
