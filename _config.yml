@@ -1,14 +1,50 @@
 theme: jekyll-theme-minimal
 logo: /image/gitgithub.png
-title: Git project
-description: This presentation is a summary of the most used git commands.
-lsi: false
-safe: true
-source: [your repo's top level directory]
-incremental: false
+title: "Git project"
+description: "This presentation is a summary of the most used git commands".
+url:  " https://mohamedalybouri.github.io/"
+
+markdown: kramdown
 highlighter: rouge
-gist:
-  noscript: false
+lsi: false
+excerpt_separator: "\n\n"
+incremental: false
+
+# Markdown Processing
 kramdown:
-  math_engine: mathjax
-  syntax_highlighter: rouge
+  input: GFM
+  hard_wrap: false
+  auto_ids: true
+  footnote_nr: 1
+  entity_output: as_char
+  toc_levels: 1..6
+  smart_quotes: lsquo,rsquo,ldquo,rdquo
+  enable_coderay: false
+
+
+# Sass/SCSS
+sass:
+  sass_dir: _sass
+  style: compressed
+
+
+# Plugins (previously gems:)
+plugins:
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-gist
+  - jekyll-feed
+  - jekyll-include-cache
+  - jekyll-pdf-embed
+
+# mimic GitHub Pages with --safe
+whitelist:
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-gist
+  - jekyll-feed
+  - jekyll-include-cache
+
+  collections:
+  presentations:
+    output: true

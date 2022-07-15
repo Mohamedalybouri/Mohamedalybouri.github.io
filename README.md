@@ -1,20 +1,11 @@
 
-# ***Planning***
-- VCS
-- GIT
-- Git branch
-- Fork
-- Diferrence between fork and branch
-- Advantages and disadvantages of using Git
-
+# ***What is Git?***
 When you take a look at the defenition in google of git you will see that Git is a version Control system (VCS)
-    **What is version Control system?**
+
+**What is version Control system?**
     
 # ***A version Control system:***
-* A system that tracks changes to a file or set of files over time
-* Sharing on multiple computers
-* Logging where be changed
-* If you screw things up or lose files, you can easily recover 
+It is a system that tracks changes to a file or set of files over time. It can share on multiple computers. Also, you can log where be changed. And if you screw things up or lose files, you can easily recover. 
 
 # ***Types of VCS***
 
@@ -23,17 +14,18 @@ There are 3 types of VCS:
 2. Centralized Version Control System
 3. Distributed Version Control System
 
-## **_Local Version Control System_**
-For example "Skype" 
+We can see here a revolution of version controle system 
+## **_`Local Version Control System`_**
+
 ![image](https://cdn.shortpixel.ai/spai/w_738+q_glossy+ret_img+to_webp/https://serengetitech.com/wp-content/uploads/2020/12/local-version-control.png)
 
 A local version control systtem has advantages(+) and disadvantages(-):
    + This approach is very common and simple (+)
    - The chances of accidentally writing to the wrong file is higher(-)
 
-That's why this methode is changed and another `VCS` is appered which is *`Centralized Version Control System`*
+That's why this methode is changed and another `VCS` is appered which is 
 
-## **_Centralized Version Control System_**
+## **_`Centralized Version Control System`_**
 ![image](https://cdn.shortpixel.ai/spai/w_738+q_glossy+ret_img+to_webp/https://serengetitech.com/wp-content/uploads/2020/12/Centralized-Version-Control-System.png)
 
 The best example of *`Centralized Version Control System`* is [*_SVN_*](https://fr.wikipedia.org/wiki/Apache_Subversion)
@@ -54,14 +46,14 @@ Also this type of VCS has advantages(+) and disadvantages(-):
 
 That's why this methode is changed and another `VCS` is appered which is *`Distributed Version Control System`*
 
-### **Distributed Version Control System**
+## **_`Distributed Version Control System`_**
 ![image](https://cdn.shortpixel.ai/spai/w_738+q_glossy+ret_img+to_webp/https://serengetitech.com/wp-content/uploads/2020/12/distributed-version-control.png)
 
 For exemple : Git
 
 ![image](/image/gitgithub%20-%20Copie.png)
 
-## _Version control software_
+## _`Version control software`_
 Ther are 3 best version control software:
 ![image](/image/VCS.png)
 
@@ -110,7 +102,7 @@ The basic steps on Git to push the project into an online host
     $ git pull                    (6)(5)
 
 Let'ss strat with:
-### **Git add**
+### **`Git add`**
     - git add <path>
     - git add .
     - git add -A
@@ -118,17 +110,17 @@ Let'ss strat with:
 It selects file(s) and moves it to the straging area
 
 The next step is:
-### **Git push**
+### **`Git push`**
 It is used to upload content from a local repository to a remote repository 
 
-### **Git commit**
+### **`Git commit`**
 ![image](/image/image2.png)
 
-# ***Git branch***
+### **`Git branch`**
 This is a sloution to work in group in Git
 
 ![image](/image/image9.png)
-### **Commands related to branch**
+### **`Commands related to branch`**
 These are the commands that are related to ``branch``
 
     $ git branch 
@@ -136,12 +128,12 @@ These are the commands that are related to ``branch``
     $ git clone
     $ git merge <branch name>
 
-### **Git checkout**
+### **`Git checkout`**
 This command make us switch the branch
 
 ![image](/image/Image22.png)
 
-### **Git clone**
+### **`Git clone`**
 It is used to target an existing repository and create a copy of the target repository
 
 1. git clone allows to create a copy of a target repository
@@ -152,19 +144,19 @@ It is used to target an existing repository and create a copy of the target repo
 
 4. Several different configuration options are available to change the contents of the clone.
 
-### **Git merge**
+### **`Git merge`**
 1. The Git merge combines multiple sequences of commits into a unified commit history.
 2. There are two main types of Git merges: fast-forward and three-pronged.
 3. Git can automatically merge commits unless there are conflicting changes in the two commit sequences
 
 There is another solution to work in groupe in git which is _`Fork`_
 
-### **Fork**
+### **`Fork`**
 
 * You can make changes to a project without affecting the original repository
 * Also, you can submit changes to the original repository with pull requests.
 
-**So what is the differenc between Fork and branch well?**
+**`So what is the differenc between Fork and branch well?`**
 
 * Just imagin that you work in groupe in a small society and you trust the other people because you know them. So, you can use the `branch` as a solution of working in groupes. You can have a close communiaction between each other. Also, you give the development organization to write an access to a repository. And of cousre we don't forget the rapid iteration cycle between developpers. 
 
