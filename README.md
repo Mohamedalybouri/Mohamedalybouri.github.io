@@ -57,7 +57,7 @@ For exemple : Git
 Ther are 3 best version control software:
 ![image](/image/VCS.png)
 
-As you can see in this table we can see the devolpere of different of verrsion control software
+In this table we can see the devolpere of different verrsion control software
 
 |***2015***                   |***2018***                   |
 |:---------------------------:|:---------------------------:|
