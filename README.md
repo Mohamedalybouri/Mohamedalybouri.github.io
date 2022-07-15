@@ -159,6 +159,8 @@ It is used to target an existing repository and create a copy of the target repo
 
 There is another solution to work in groupe in git which is _`Fork`_
 
+### **Fork**
+
 * You can make changes to a project without affecting the original repository
 * Also, you can submit changes to the original repository with pull requests.
 
