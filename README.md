@@ -164,6 +164,6 @@ There is another solution to work in groupe in git which is _`Fork`_
 
 **So what is the differenc between Fork and branch well?**
 
-Just imagin that you work in groupe in a small society and you trust the other people because you know them. So, you can use the `branch` as a solution of working in groupes. You can have a close communiaction between each other. Also, you give the development organization to write an access to a repository. And of cousre we don't forget the rapid iteration cycle between developpers. 
+* Just imagin that you work in groupe in a small society and you trust the other people because you know them. So, you can use the `branch` as a solution of working in groupes. You can have a close communiaction between each other. Also, you give the development organization to write an access to a repository. And of cousre we don't forget the rapid iteration cycle between developpers. 
 
-Otherwise, if you work in a society but you don't trust anyone. So, you can't use the `Branch` because may be one day some one can delete an important file. So, in this case, you should use `Fork`.So, you can fine-grain control over merging.Also, You expressly want to support independent branches. And of course, You want to discard experiments and changes easily.
+* Otherwise, if you work in a society but you don't trust anyone. So, you can't use the `Branch` because may be one day some one can delete an important file. So, in this case, you should use `Fork`.So, you can fine-grain control over merging.Also, You expressly want to support independent branches. And of course, You want to discard experiments and changes easily.
