@@ -1,4 +1,4 @@
-![image](/image/gitgithub - Copie.png)
+![image](/image/gitgithub.png)
 
 # ***What is Git?***
 When you take a look at the defenition in google of git you will see that Git is a version Control system (VCS)
