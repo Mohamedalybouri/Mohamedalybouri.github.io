@@ -3,4 +3,17 @@ logo: /image/gitgithub - Copie.png
 description: This presentation is a summary of the most used git commands
 show_downloads: false
 google_analytics:
-theme: jekyll-theme-minimal
+markdown: kramdown
+highlighter: rouge
+theme: minima
+gems:
+  - jekyll-feed
+
+include: ['_pages']
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - vendor
+#sass
+sass:
+  style: compressed

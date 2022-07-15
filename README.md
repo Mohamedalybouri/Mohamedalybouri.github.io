@@ -156,7 +156,7 @@ There is another solution to work in groupe in git which is _`Fork`_
 * You can make changes to a project without affecting the original repository
 * Also, you can submit changes to the original repository with pull requests.
 
-**`So what is the differenc between Fork and branch well?`**
+**`So what is the differenc between Fork and branch ?`**
 
 * Just imagin that you work in groupe in a small society and you trust the other people because you know them. So, you can use the `branch` as a solution of working in groupes. You can have a close communiaction between each other. Also, you give the development organization to write an access to a repository. And of cousre we don't forget the rapid iteration cycle between developpers. 
 
