@@ -98,7 +98,7 @@ Git has 3 main states that your file can reside in which are:
 
 Git has 4 main code which are represented in this cercal
 
-![image](/image/Image3.png)
+![image](/image/image3.png)
 
 The basic steps on Git to push the project into an online host
 
