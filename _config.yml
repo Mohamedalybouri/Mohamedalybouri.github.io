@@ -2,6 +2,7 @@ theme: jekyll-theme-minimal
 logo: /image/gitgithub.png
 title: "Git project"
 description: "This presentation is a summary of the most used git commands".
+show_downloads: true
 url:  " https://mohamedalybouri.github.io/"
 
 markdown: kramdown
@@ -21,30 +22,9 @@ kramdown:
   smart_quotes: lsquo,rsquo,ldquo,rdquo
   enable_coderay: false
 
+language: ruby
+cache: bundler
+rvm: 2.6
 
-# Sass/SCSS
-sass:
-  sass_dir: _sass
-  style: compressed
-
-
-# Plugins (previously gems:)
-plugins:
-  - jekyll-paginate
-  - jekyll-sitemap
-  - jekyll-gist
-  - jekyll-feed
-  - jekyll-include-cache
-  - jekyll-pdf-embed
-
-# mimic GitHub Pages with --safe
-whitelist:
-  - jekyll-paginate
-  - jekyll-sitemap
-  - jekyll-gist
-  - jekyll-feed
-  - jekyll-include-cache
-
-  collections:
-  presentations:
-    output: true
+install: script/bootstrap
+script: script/cibuild
