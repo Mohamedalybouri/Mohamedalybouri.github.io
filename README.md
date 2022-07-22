@@ -1,9 +1,16 @@
 ![image](/image/gitgithub.png)
 
-# ***What is Git?***
-When you take a look at the defenition in google of git you will see that Git is a version Control system (VCS)
+# ***Agenda***
+- Version Control System (VCS)
+- What is GIT?
+- What is a branch?
+- Fork
+- fork and branch
+- Advantages and disadvantages of using Git
 
 **What is version Control system?**
+>- A software tool that help software teams manage changes to source code over time. 
+>- Track every individual change by each contributor and prevent concurrent work from conflicting.
     
 # ***A version Control system:***
 It is a system that tracks changes to a file or set of files over time. It can share on multiple computers. Also, you can log where be changed. And if you screw things up or lose files, you can easily recover. 
@@ -21,8 +28,8 @@ We can see here a revolution of version controle system
 ![image](https://cdn.shortpixel.ai/spai/w_738+q_glossy+ret_img+to_webp/https://serengetitech.com/wp-content/uploads/2020/12/local-version-control.png)
 
 A local version control systtem has advantages(+) and disadvantages(-):
-   + This approach is very common and simple (+)
-   - The chances of accidentally writing to the wrong file is higher(-)
+   >* This approach is very common and simple (+)
+   >* The chances of accidentally writing to the wrong file is higher(-)
 
 That's why this methode is changed and another `VCS` is appered which is 
 
@@ -33,17 +40,17 @@ The best example of *`Centralized Version Control System`* is [*_SVN_*](https://
 
 Also this type of VCS has advantages(+) and disadvantages(-):
 
-   +Relatively easy to set up
+   >- Relatively easy to set up (+)
 
-   +Enable admins control the workflow
+   >- Enable admins control the workflow(+)
 
    On the other hand
 
-   -If the main server goes down developers can’t save versioned changes
+   >- If the main server goes down developers can’t save versioned changes(-)
 
-   -Remote commits are slow
+   >- Remote commits are slow (-)
    
-   -If the central database is corrupted the entire history could be lost (security issues)
+   >- If the central database is corrupted the entire history could be lost (security issues) (-)
 
 That's why this methode is changed and another `VCS` is appered which is *`Distributed Version Control System`*
 

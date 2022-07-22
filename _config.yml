@@ -17,3 +17,10 @@ exclude:
 #sass
 sass:
   style: compressed
+
+.site-title::before {
+content: url("https://avatars.githubusercontent.com/u/89728610?v=4");
+display: inline-block;
+position: relative;
+width: 32px;
+top: 32px;
